@@ -14,30 +14,13 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with Erigon. If not, see <http://www.gnu.org/licenses/>.
 
-package common
+package generics
 
-import (
-	"math/rand"
-)
-
-func SliceMap[T any, U any](s []T, mapFunc func(T) U) []U {
-	out := make([]U, 0, len(s))
-	for _, x := range s {
-		out = append(out, mapFunc(x))
-	}
-	return out
+func Zero[T any]() T {
+	var value T
+	return value
 }
 
-func SliceShuffle[T any](s []T) {
-	rand.Shuffle(len(s), func(i, j int) {
-		s[i], s[j] = s[j], s[i]
-	})
-}
-
-func SliceTakeLast[T any](s []T, count int) []T {
-	length := len(s)
-	if length > count {
-		return s[length-count:]
-	}
-	return s
+func New[T any]() *T {
+	return new(T)
 }
