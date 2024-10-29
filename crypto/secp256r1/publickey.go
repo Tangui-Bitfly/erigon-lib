@@ -14,25 +14,29 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with Erigon. If not, see <http://www.gnu.org/licenses/>.
 
-package cryptopool
+package secp256r1
 
 import (
-	"hash"
-	"sync"
-
-	"golang.org/x/crypto/sha3"
+	"crypto/ecdsa"
+	"crypto/elliptic"
+	"math/big"
 )
 
-// pool holds LegacyKeccak hashers.
-var pool = sync.Pool{
-	New: func() interface{} {
-		return sha3.NewLegacyKeccak256()
-	},
-}
+// Generates approptiate public key format from given coordinates
+func newPublicKey(x, y *big.Int) *ecdsa.PublicKey {
+	// Check if the given coordinates are valid
+	if x == nil || y == nil || !elliptic.P256().IsOnCurve(x, y) {
+		return nil
+	}
 
-func NewLegacyKeccak256() hash.Hash {
-	h := pool.Get().(hash.Hash)
-	h.Reset()
-	return h
+	// Check if the given coordinates are the reference point (infinity)
+	if x.Sign() == 0 && y.Sign() == 0 {
+		return nil
+	}
+
+	return &ecdsa.PublicKey{
+		Curve: elliptic.P256(),
+		X:     x,
+		Y:     y,
+	}
 }
-func ReturnToPoolKeccak256(h hash.Hash) { pool.Put(h) }

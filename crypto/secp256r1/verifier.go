@@ -1,4 +1,4 @@
-// Copyright 2022 The Erigon Authors
+// Copyright 2024 The Erigon Authors
 // This file is part of Erigon.
 //
 // Erigon is free software: you can redistribute it and/or modify
@@ -14,29 +14,24 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with Erigon. If not, see <http://www.gnu.org/licenses/>.
 
-package crypto
+package secp256r1
 
 import (
-	"github.com/holiman/uint256"
-
-	"github.com/erigontech/erigon-lib/common/hexutility"
+	"crypto/ecdsa"
+	"math/big"
 )
 
-var (
-	secp256k1N     = new(uint256.Int).SetBytes(hexutility.MustDecodeHex("fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364141"))
-	secp256k1halfN = new(uint256.Int).Rsh(secp256k1N, 1)
-)
+// Verify verifies the given signature (r, s) for the given hash and public key (x, y).
+func Verify(hash []byte, r, s, x, y *big.Int) bool {
+	// Create the public key format
+	publicKey := newPublicKey(x, y)
 
-// See Appendix F "Signing Transactions" of the Yellow Paper
-func TransactionSignatureIsValid(v byte, r, s *uint256.Int, allowPreEip2s bool) bool {
-	if r.IsZero() || s.IsZero() {
+	// Check if they are invalid public key coordinates
+	if publicKey == nil {
 		return false
 	}
 
-	// See EIP-2: Homestead Hard-fork Changes
-	if !allowPreEip2s && s.Gt(secp256k1halfN) {
-		return false
-	}
-
-	return r.Lt(secp256k1N) && s.Lt(secp256k1N) && (v == 0 || v == 1)
+	// Verify the signature with the public key,
+	// then return true if it's valid, false otherwise
+	return ecdsa.Verify(publicKey, hash, r, s)
 }
