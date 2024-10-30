@@ -19,7 +19,7 @@ package diagnostics_test
 import (
 	"testing"
 
-	"github.com/erigontech/erigon-lib/diagnostics"
+	"github.com/Tangui-Bitfly/erigon-lib/diagnostics"
 	"github.com/stretchr/testify/require"
 )
 

@@ -19,9 +19,9 @@ package ssz
 import (
 	"encoding/binary"
 
-	"github.com/erigontech/erigon-lib/common"
-	"github.com/erigontech/erigon-lib/common/length"
-	"github.com/erigontech/erigon-lib/types/clonable"
+	"github.com/Tangui-Bitfly/erigon-lib/common"
+	"github.com/Tangui-Bitfly/erigon-lib/common/length"
+	"github.com/Tangui-Bitfly/erigon-lib/types/clonable"
 )
 
 var (

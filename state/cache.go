@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/Tangui-Bitfly/erigon-lib/common/dbg"
+	"github.com/Tangui-Bitfly/erigon-lib/kv"
+	"github.com/Tangui-Bitfly/erigon-lib/log/v3"
 	"github.com/elastic/go-freelru"
-	"github.com/erigontech/erigon-lib/common/dbg"
-	"github.com/erigontech/erigon-lib/kv"
-	"github.com/erigontech/erigon-lib/log/v3"
 )
 
 func u32noHash(u uint32) uint32        { return u }            //nolint

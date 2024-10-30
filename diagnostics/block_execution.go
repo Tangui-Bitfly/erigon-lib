@@ -22,7 +22,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/erigontech/erigon-lib/log/v3"
+	"github.com/Tangui-Bitfly/erigon-lib/log/v3"
 )
 
 type BlockEexcStatsData struct {

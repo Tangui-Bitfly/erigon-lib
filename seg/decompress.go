@@ -29,13 +29,13 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/erigontech/erigon-lib/common/assert"
-	"github.com/erigontech/erigon-lib/log/v3"
+	"github.com/Tangui-Bitfly/erigon-lib/common/assert"
+	"github.com/Tangui-Bitfly/erigon-lib/log/v3"
 
 	"github.com/c2h5oh/datasize"
 
-	"github.com/erigontech/erigon-lib/common/dbg"
-	"github.com/erigontech/erigon-lib/mmap"
+	"github.com/Tangui-Bitfly/erigon-lib/common/dbg"
+	"github.com/Tangui-Bitfly/erigon-lib/mmap"
 )
 
 type word []byte // plain text word associated with code from dictionary

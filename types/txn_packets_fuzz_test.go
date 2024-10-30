@@ -21,8 +21,8 @@ package types
 import (
 	"testing"
 
-	"github.com/erigontech/erigon-lib/common/hexutility"
-	"github.com/erigontech/erigon-lib/common/u256"
+	"github.com/Tangui-Bitfly/erigon-lib/common/hexutility"
+	"github.com/Tangui-Bitfly/erigon-lib/common/u256"
 )
 
 func FuzzPooledTransactions66(f *testing.F) {

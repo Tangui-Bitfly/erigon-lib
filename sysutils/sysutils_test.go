@@ -3,7 +3,7 @@ package sysutils_test
 import (
 	"testing"
 
-	"github.com/erigontech/erigon-lib/sysutils"
+	"github.com/Tangui-Bitfly/erigon-lib/sysutils"
 	"github.com/stretchr/testify/require"
 )
 

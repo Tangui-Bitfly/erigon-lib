@@ -1,4 +1,4 @@
-module github.com/ledgerwatch/erigon-lib
+module github.com/Tangui-Bitfly/erigon-lib
 
 go 1.22.0
 

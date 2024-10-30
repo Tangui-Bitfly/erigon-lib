@@ -25,11 +25,11 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/erigontech/erigon-lib/gointerfaces/sentryproto"
-	"github.com/erigontech/erigon-lib/log/v3"
-	"github.com/erigontech/erigon-lib/p2p/sentry"
-	"github.com/erigontech/erigon-lib/rlp"
-	types2 "github.com/erigontech/erigon-lib/types"
+	"github.com/Tangui-Bitfly/erigon-lib/gointerfaces/sentryproto"
+	"github.com/Tangui-Bitfly/erigon-lib/log/v3"
+	"github.com/Tangui-Bitfly/erigon-lib/p2p/sentry"
+	"github.com/Tangui-Bitfly/erigon-lib/rlp"
+	types2 "github.com/Tangui-Bitfly/erigon-lib/types"
 )
 
 // Send - does send concrete P2P messages to Sentry. Same as Fetch but for outbound traffic

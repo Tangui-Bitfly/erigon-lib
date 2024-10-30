@@ -25,14 +25,14 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/erigontech/erigon-lib/common/dbg"
+	"github.com/Tangui-Bitfly/erigon-lib/common/dbg"
 
+	"github.com/Tangui-Bitfly/erigon-lib/seg"
 	"github.com/c2h5oh/datasize"
-	"github.com/erigontech/erigon-lib/seg"
 
-	"github.com/erigontech/erigon-lib/common"
-	"github.com/erigontech/erigon-lib/log/v3"
-	"github.com/erigontech/erigon-lib/recsplit/eliasfano32"
+	"github.com/Tangui-Bitfly/erigon-lib/common"
+	"github.com/Tangui-Bitfly/erigon-lib/log/v3"
+	"github.com/Tangui-Bitfly/erigon-lib/recsplit/eliasfano32"
 )
 
 // nolint

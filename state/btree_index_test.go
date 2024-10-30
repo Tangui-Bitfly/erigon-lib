@@ -26,11 +26,11 @@ import (
 	bloomfilter "github.com/holiman/bloomfilter/v2"
 	"github.com/stretchr/testify/require"
 
-	"github.com/erigontech/erigon-lib/common"
-	"github.com/erigontech/erigon-lib/common/background"
-	"github.com/erigontech/erigon-lib/log/v3"
-	"github.com/erigontech/erigon-lib/recsplit/eliasfano32"
-	"github.com/erigontech/erigon-lib/seg"
+	"github.com/Tangui-Bitfly/erigon-lib/common"
+	"github.com/Tangui-Bitfly/erigon-lib/common/background"
+	"github.com/Tangui-Bitfly/erigon-lib/log/v3"
+	"github.com/Tangui-Bitfly/erigon-lib/recsplit/eliasfano32"
+	"github.com/Tangui-Bitfly/erigon-lib/seg"
 )
 
 func Test_BtreeIndex_Init2(t *testing.T) {

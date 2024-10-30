@@ -19,7 +19,7 @@ package kvcfg
 import (
 	"context"
 
-	"github.com/erigontech/erigon-lib/kv"
+	"github.com/Tangui-Bitfly/erigon-lib/kv"
 )
 
 type ConfigKey []byte

@@ -35,16 +35,16 @@ import (
 	"github.com/anacrolix/torrent/metainfo"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/erigontech/erigon-lib/chain/snapcfg"
-	common2 "github.com/erigontech/erigon-lib/common"
-	"github.com/erigontech/erigon-lib/common/datadir"
-	"github.com/erigontech/erigon-lib/common/dbg"
-	dir2 "github.com/erigontech/erigon-lib/common/dir"
-	"github.com/erigontech/erigon-lib/downloader/downloadercfg"
-	"github.com/erigontech/erigon-lib/downloader/downloaderrawdb"
-	"github.com/erigontech/erigon-lib/downloader/snaptype"
-	"github.com/erigontech/erigon-lib/kv"
-	"github.com/erigontech/erigon-lib/log/v3"
+	"github.com/Tangui-Bitfly/erigon-lib/chain/snapcfg"
+	common2 "github.com/Tangui-Bitfly/erigon-lib/common"
+	"github.com/Tangui-Bitfly/erigon-lib/common/datadir"
+	"github.com/Tangui-Bitfly/erigon-lib/common/dbg"
+	dir2 "github.com/Tangui-Bitfly/erigon-lib/common/dir"
+	"github.com/Tangui-Bitfly/erigon-lib/downloader/downloadercfg"
+	"github.com/Tangui-Bitfly/erigon-lib/downloader/downloaderrawdb"
+	"github.com/Tangui-Bitfly/erigon-lib/downloader/snaptype"
+	"github.com/Tangui-Bitfly/erigon-lib/kv"
+	"github.com/Tangui-Bitfly/erigon-lib/log/v3"
 )
 
 // udpOrHttpTrackers - torrent library spawning several goroutines and producing many requests for each tracker. So we limit amout of trackers by 8

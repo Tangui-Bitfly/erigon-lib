@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/erigontech/erigon-lib/commitment"
-	"github.com/erigontech/erigon-lib/common/length"
-	"github.com/erigontech/erigon-lib/recsplit"
-	"github.com/erigontech/erigon-lib/seg"
+	"github.com/Tangui-Bitfly/erigon-lib/commitment"
+	"github.com/Tangui-Bitfly/erigon-lib/common/length"
+	"github.com/Tangui-Bitfly/erigon-lib/recsplit"
+	"github.com/Tangui-Bitfly/erigon-lib/seg"
 )
 
 type ValueMerger func(prev, current []byte) (merged []byte, err error)

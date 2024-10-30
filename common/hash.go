@@ -25,8 +25,8 @@ import (
 	"math/rand"
 	"reflect"
 
-	"github.com/erigontech/erigon-lib/common/hexutility"
-	"github.com/erigontech/erigon-lib/common/length"
+	"github.com/Tangui-Bitfly/erigon-lib/common/hexutility"
+	"github.com/Tangui-Bitfly/erigon-lib/common/length"
 )
 
 var (

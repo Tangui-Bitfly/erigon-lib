@@ -27,9 +27,9 @@ import (
 	"github.com/c2h5oh/datasize"
 	"github.com/stretchr/testify/require"
 
-	"github.com/erigontech/erigon-lib/kv/memdb"
-	"github.com/erigontech/erigon-lib/log/v3"
-	"github.com/erigontech/erigon-lib/seg"
+	"github.com/Tangui-Bitfly/erigon-lib/kv/memdb"
+	"github.com/Tangui-Bitfly/erigon-lib/log/v3"
+	"github.com/Tangui-Bitfly/erigon-lib/seg"
 )
 
 func TestArchiveWriter(t *testing.T) {

@@ -12,15 +12,15 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Tangui-Bitfly/erigon-lib/common"
+	"github.com/Tangui-Bitfly/erigon-lib/common/datadir"
+	"github.com/Tangui-Bitfly/erigon-lib/common/dir"
+	"github.com/Tangui-Bitfly/erigon-lib/kv"
+	"github.com/Tangui-Bitfly/erigon-lib/kv/rawdbv3"
+	"github.com/Tangui-Bitfly/erigon-lib/kv/stream"
+	"github.com/Tangui-Bitfly/erigon-lib/log/v3"
+	"github.com/Tangui-Bitfly/erigon-lib/seg"
 	"github.com/c2h5oh/datasize"
-	"github.com/erigontech/erigon-lib/common"
-	"github.com/erigontech/erigon-lib/common/datadir"
-	"github.com/erigontech/erigon-lib/common/dir"
-	"github.com/erigontech/erigon-lib/kv"
-	"github.com/erigontech/erigon-lib/kv/rawdbv3"
-	"github.com/erigontech/erigon-lib/kv/stream"
-	"github.com/erigontech/erigon-lib/log/v3"
-	"github.com/erigontech/erigon-lib/seg"
 )
 
 //Sqeeze: ForeignKeys-aware compression of file

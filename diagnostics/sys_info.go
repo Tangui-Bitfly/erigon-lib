@@ -24,10 +24,10 @@ import (
 	"github.com/shirou/gopsutil/v4/disk"
 	"github.com/shirou/gopsutil/v4/mem"
 
-	"github.com/erigontech/erigon-lib/common"
-	"github.com/erigontech/erigon-lib/diskutils"
-	"github.com/erigontech/erigon-lib/kv"
-	"github.com/erigontech/erigon-lib/log/v3"
+	"github.com/Tangui-Bitfly/erigon-lib/common"
+	"github.com/Tangui-Bitfly/erigon-lib/diskutils"
+	"github.com/Tangui-Bitfly/erigon-lib/kv"
+	"github.com/Tangui-Bitfly/erigon-lib/log/v3"
 )
 
 var (

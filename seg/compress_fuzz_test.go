@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/erigontech/erigon-lib/log/v3"
+	"github.com/Tangui-Bitfly/erigon-lib/log/v3"
 )
 
 func FuzzCompress(f *testing.F) {

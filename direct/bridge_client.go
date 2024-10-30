@@ -6,8 +6,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	remote "github.com/erigontech/erigon-lib/gointerfaces/remoteproto"
-	types "github.com/erigontech/erigon-lib/gointerfaces/typesproto"
+	remote "github.com/Tangui-Bitfly/erigon-lib/gointerfaces/remoteproto"
+	types "github.com/Tangui-Bitfly/erigon-lib/gointerfaces/typesproto"
 )
 
 type BridgeClientDirect struct {

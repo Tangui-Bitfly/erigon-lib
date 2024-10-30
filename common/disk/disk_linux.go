@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/erigontech/erigon-lib/metrics"
+	"github.com/Tangui-Bitfly/erigon-lib/metrics"
 	"github.com/shirou/gopsutil/v4/process"
 )
 

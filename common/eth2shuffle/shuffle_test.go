@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/erigontech/erigon-lib/common/eth2shuffle"
+	"github.com/Tangui-Bitfly/erigon-lib/common/eth2shuffle"
 	"github.com/stretchr/testify/assert"
 )
 

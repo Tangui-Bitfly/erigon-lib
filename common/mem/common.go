@@ -25,10 +25,10 @@ import (
 
 	"github.com/shirou/gopsutil/v4/process"
 
-	"github.com/erigontech/erigon-lib/common"
-	"github.com/erigontech/erigon-lib/common/dbg"
-	"github.com/erigontech/erigon-lib/diagnostics"
-	"github.com/erigontech/erigon-lib/log/v3"
+	"github.com/Tangui-Bitfly/erigon-lib/common"
+	"github.com/Tangui-Bitfly/erigon-lib/common/dbg"
+	"github.com/Tangui-Bitfly/erigon-lib/diagnostics"
+	"github.com/Tangui-Bitfly/erigon-lib/log/v3"
 )
 
 var ErrorUnsupportedPlatform = errors.New("unsupported platform")

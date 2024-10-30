@@ -19,8 +19,8 @@ package direct
 import (
 	"context"
 
-	execution "github.com/erigontech/erigon-lib/gointerfaces/executionproto"
-	types "github.com/erigontech/erigon-lib/gointerfaces/typesproto"
+	execution "github.com/Tangui-Bitfly/erigon-lib/gointerfaces/executionproto"
+	types "github.com/Tangui-Bitfly/erigon-lib/gointerfaces/typesproto"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/emptypb"
 )

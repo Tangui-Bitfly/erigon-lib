@@ -26,10 +26,10 @@ import (
 	"github.com/c2h5oh/datasize"
 	"golang.org/x/sync/semaphore"
 
-	"github.com/erigontech/erigon-lib/common"
-	"github.com/erigontech/erigon-lib/kv"
-	"github.com/erigontech/erigon-lib/kv/mdbx"
-	"github.com/erigontech/erigon-lib/log/v3"
+	"github.com/Tangui-Bitfly/erigon-lib/common"
+	"github.com/Tangui-Bitfly/erigon-lib/kv"
+	"github.com/Tangui-Bitfly/erigon-lib/kv/mdbx"
+	"github.com/Tangui-Bitfly/erigon-lib/log/v3"
 )
 
 type DiagnosticClient struct {

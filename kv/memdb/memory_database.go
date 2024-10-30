@@ -22,9 +22,9 @@ import (
 
 	"github.com/c2h5oh/datasize"
 
-	"github.com/erigontech/erigon-lib/kv"
-	"github.com/erigontech/erigon-lib/kv/mdbx"
-	"github.com/erigontech/erigon-lib/log/v3"
+	"github.com/Tangui-Bitfly/erigon-lib/kv"
+	"github.com/Tangui-Bitfly/erigon-lib/kv/mdbx"
+	"github.com/Tangui-Bitfly/erigon-lib/log/v3"
 )
 
 func New(tmpDir string) kv.RwDB {

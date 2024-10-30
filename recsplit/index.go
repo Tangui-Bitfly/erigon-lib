@@ -30,12 +30,12 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/erigontech/erigon-lib/common"
-	"github.com/erigontech/erigon-lib/common/dbg"
-	"github.com/erigontech/erigon-lib/log/v3"
-	"github.com/erigontech/erigon-lib/mmap"
-	"github.com/erigontech/erigon-lib/recsplit/eliasfano16"
-	"github.com/erigontech/erigon-lib/recsplit/eliasfano32"
+	"github.com/Tangui-Bitfly/erigon-lib/common"
+	"github.com/Tangui-Bitfly/erigon-lib/common/dbg"
+	"github.com/Tangui-Bitfly/erigon-lib/log/v3"
+	"github.com/Tangui-Bitfly/erigon-lib/mmap"
+	"github.com/Tangui-Bitfly/erigon-lib/recsplit/eliasfano16"
+	"github.com/Tangui-Bitfly/erigon-lib/recsplit/eliasfano32"
 )
 
 type Features byte

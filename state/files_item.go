@@ -22,11 +22,11 @@ import (
 
 	btree2 "github.com/tidwall/btree"
 
-	"github.com/erigontech/erigon-lib/config3"
-	"github.com/erigontech/erigon-lib/kv/bitmapdb"
-	"github.com/erigontech/erigon-lib/log/v3"
-	"github.com/erigontech/erigon-lib/recsplit"
-	"github.com/erigontech/erigon-lib/seg"
+	"github.com/Tangui-Bitfly/erigon-lib/config3"
+	"github.com/Tangui-Bitfly/erigon-lib/kv/bitmapdb"
+	"github.com/Tangui-Bitfly/erigon-lib/log/v3"
+	"github.com/Tangui-Bitfly/erigon-lib/recsplit"
+	"github.com/Tangui-Bitfly/erigon-lib/seg"
 )
 
 // filesItem is "dirty" file - means file which can be:

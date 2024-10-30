@@ -31,14 +31,14 @@ import (
 	"github.com/google/btree"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/erigontech/erigon-lib/common"
-	"github.com/erigontech/erigon-lib/common/cryptozerocopy"
-	"github.com/erigontech/erigon-lib/log/v3"
-	"github.com/erigontech/erigon-lib/metrics"
-	"github.com/erigontech/erigon-lib/types"
+	"github.com/Tangui-Bitfly/erigon-lib/common"
+	"github.com/Tangui-Bitfly/erigon-lib/common/cryptozerocopy"
+	"github.com/Tangui-Bitfly/erigon-lib/log/v3"
+	"github.com/Tangui-Bitfly/erigon-lib/metrics"
+	"github.com/Tangui-Bitfly/erigon-lib/types"
 
-	"github.com/erigontech/erigon-lib/common/length"
-	"github.com/erigontech/erigon-lib/etl"
+	"github.com/Tangui-Bitfly/erigon-lib/common/length"
+	"github.com/Tangui-Bitfly/erigon-lib/etl"
 )
 
 var (

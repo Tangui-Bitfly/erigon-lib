@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/erigontech/erigon-lib/common/dbg"
-	"github.com/erigontech/erigon-lib/log/v3"
+	"github.com/Tangui-Bitfly/erigon-lib/common/dbg"
+	"github.com/Tangui-Bitfly/erigon-lib/log/v3"
 )
 
 type ctxKey int

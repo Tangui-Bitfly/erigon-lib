@@ -27,9 +27,9 @@ import (
 
 	"github.com/erigontech/mdbx-go/mdbx"
 
-	"github.com/erigontech/erigon-lib/common/hexutility"
+	"github.com/Tangui-Bitfly/erigon-lib/common/hexutility"
 
-	"github.com/erigontech/erigon-lib/common"
+	"github.com/Tangui-Bitfly/erigon-lib/common"
 )
 
 func DefaultPageSize() uint64 {

@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/erigontech/erigon-lib/gointerfaces/sentryproto"
-	"github.com/erigontech/erigon-lib/gointerfaces/typesproto"
+	"github.com/Tangui-Bitfly/erigon-lib/gointerfaces/sentryproto"
+	"github.com/Tangui-Bitfly/erigon-lib/gointerfaces/typesproto"
 	"google.golang.org/protobuf/types/known/emptypb"
 )
 

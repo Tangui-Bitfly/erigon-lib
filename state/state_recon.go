@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/erigontech/erigon-lib/recsplit"
-	"github.com/erigontech/erigon-lib/recsplit/eliasfano32"
-	"github.com/erigontech/erigon-lib/seg"
+	"github.com/Tangui-Bitfly/erigon-lib/recsplit"
+	"github.com/Tangui-Bitfly/erigon-lib/recsplit/eliasfano32"
+	"github.com/Tangui-Bitfly/erigon-lib/seg"
 )
 
 // Algorithms for reconstituting the state from state history

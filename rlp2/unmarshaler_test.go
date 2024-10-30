@@ -19,7 +19,7 @@ package rlp_test
 import (
 	"testing"
 
-	rlp "github.com/erigontech/erigon-lib/rlp2"
+	rlp "github.com/Tangui-Bitfly/erigon-lib/rlp2"
 	"github.com/stretchr/testify/require"
 )
 
